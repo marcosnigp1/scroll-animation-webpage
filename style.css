@@ -1,0 +1,120 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5{
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#text{
+
+  /* Align items in the center and make them a column. */
+
+  display:flex;
+
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+
+  flex-direction: column;
+
+  color: #ffffff;
+  background-color:rgb(0, 0, 0);
+  padding:50px 80px;
+  
+
+  height: 100%;
+  /* border:3px solid green; */
+}
+
+#text img{
+  width: 30%;
+  max-width: 200px;
+}
+
+
+/* Background images */
+
+.bgimg-1 {
+  background-image: url("media/bg1.jpg"); /* Silbury Hill. Photo by David Bukach/Getty Images  */
+  min-height: 102%;
+}
+
+.bgimg-2 {
+  background-image: url("media/bg2.jpg"); /* Obtained from: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.masterfile.com%2Fsearch%2Fen%2Fguy%2Bfalling%2Bdown%2Bhill&psig=AOvVaw1TXMem9HBpNcnaAvrWYqpz&ust=1728237500741000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCPCtvsTo94gDFQAAAAAdAAAAABAE */
+  min-height: 1100px;
+}
+
+.bgimg-3 {
+  background-image: url("media/bg3.webp"); /* Obtained from: https://www.shutterstock.com/image-photo/distraught-man-kneeling-desert-1615498156 */
+  min-height: 1100px;
+}
+
+.bgimg-4 {
+  background-image: url("media/bg4.webp"); /* Obtained from: https://www.shutterstock.com/video/clip-1104125603-young-fit-sporty-man-stretching-cardio-exercise */
+  min-height: 1100px;
+}
+
+.bgimg-5 {
+  background-image: url("media/bg5.webp"); /* Obtained from: https://www.shutterstock.com/video/clip-3502311163-man-black-business-suit-has-glow-around */
+  min-height: 1100px;
+}
+
+
+.credit {
+  position: absolute;
+  left: 0;
+  top: 90%;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #0000006c;
+  color: #ffffff;
+  padding: 12px;
+  font-size: 100px;
+  letter-spacing: 5px;
+}
+
+.caption span.border_story {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 18px;
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  color: #f3f3f3;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 5px;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5{
+    background-attachment: scroll;
+  }
+}
