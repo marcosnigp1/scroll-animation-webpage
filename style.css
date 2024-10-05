@@ -51,22 +51,22 @@ body, html {
 
 .bgimg-2 {
   background-image: url("media/bg2.jpg"); /* Obtained from: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.masterfile.com%2Fsearch%2Fen%2Fguy%2Bfalling%2Bdown%2Bhill&psig=AOvVaw1TXMem9HBpNcnaAvrWYqpz&ust=1728237500741000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCPCtvsTo94gDFQAAAAAdAAAAABAE */
-  min-height: 1100px;
+  min-height: 1200px;
 }
 
 .bgimg-3 {
   background-image: url("media/bg3.webp"); /* Obtained from: https://www.shutterstock.com/image-photo/distraught-man-kneeling-desert-1615498156 */
-  min-height: 1100px;
+  min-height: 1200px;
 }
 
 .bgimg-4 {
   background-image: url("media/bg4.webp"); /* Obtained from: https://www.shutterstock.com/video/clip-1104125603-young-fit-sporty-man-stretching-cardio-exercise */
-  min-height: 1100px;
+  min-height: 1200px;
 }
 
 .bgimg-5 {
   background-image: url("media/bg5.webp"); /* Obtained from: https://www.shutterstock.com/video/clip-3502311163-man-black-business-suit-has-glow-around */
-  min-height: 1100px;
+  min-height: 1200px;
 }
 
 
